@@ -44,7 +44,8 @@
     "cap:run:android": "pnpm exec cap run android",
     "cap:run:ios": "pnpm exec cap run ios",
     "wasm:build": "node scripts/build-wasm.js",
-    "wasm:build:debug": "node scripts/build-wasm.js --debug"
+    "wasm:build:debug": "node scripts/build-wasm.js --debug",
+    "check:input": "bash scripts/check-input-controls.sh"
   },
   "dependencies": {
     "@capacitor/android": "8.2.0",

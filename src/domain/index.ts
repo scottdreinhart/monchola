@@ -13,3 +13,5 @@ export * from './rules'
 export * from './sprites'
 export * from './ai'
 export * from './themes'
+
+export * from './responsive'
